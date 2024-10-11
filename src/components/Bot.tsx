@@ -507,6 +507,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
     if (result.data) {
       const data = result.data;
       const question = data.question;
+      setMessages((prevMessages) => [...prevMessages, { message: data.text, type: 'apiMessage' }]);
       if (value === '' && question) {
         setMessages((data) => {
           const messages = data.map((item, i) => {
