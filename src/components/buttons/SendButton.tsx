@@ -45,7 +45,8 @@ export const DeleteButton = (props: SendButtonProps) => {
       title="Reset Chat"
     >
       <Show when={!props.isLoading} fallback={<Spinner class="text-white" />}>
-        <DeleteIcon color={props.sendButtonColor} class={'send-icon flex ' + (props.disableIcon ? 'hidden' : '')} />
+        <DeleteIcon color={props.sendButtonColor} class={'send-icon flex '} />
+        {/* <DeleteIcon color={props.sendButtonColor} class={'send-icon flex ' + (props.disableIcon ? 'hidden' : '')} /> */}
       </Show>
     </button>
   );
