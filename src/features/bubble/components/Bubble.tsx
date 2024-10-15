@@ -111,9 +111,7 @@ export const Bubble = (props: BubbleProps) => {
                 class="py-2 pr-3 absolute top-0 right-[-8px] m-[6px] bg-transparent text-white rounded-full z-50 disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100 transition-all filter hover:brightness-90 active:brightness-75"
                 title="Close Chat"
               >
-                <svg viewBox="0 0 24 24" width="24" height="24">
-                  <path fill={bubbleProps.theme?.button?.iconColor ?? defaultIconColor} d="M12 16l-6-6h12l-6 6z" />
-                </svg>
+                <svg width="30" height="30" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0" /><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" /><g id="SVGRepo_iconCarrier"> <title>close-circle</title> <g id="Layer_2" data-name="Layer 2"> <g id="invisible_box" data-name="invisible box"> <rect width="48" height="48" fill="none" /> </g> <g id="icons_Q2" data-name="icons Q2"> <path d="M24,6A18,18,0,1,1,6,24,18.1,18.1,0,0,1,24,6m0-4A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2Z" /> <path d="M26.8,24l5.6-5.5a2.1,2.1,0,0,0,.2-2.7,1.9,1.9,0,0,0-3-.2L24,21.2l-5.6-5.6a1.9,1.9,0,0,0-3,.2,2.1,2.1,0,0,0,.2,2.7L21.2,24l-5.6,5.5a2.1,2.1,0,0,0-.2,2.7,1.9,1.9,0,0,0,3,.2L24,26.8l5.6,5.6a1.9,1.9,0,0,0,3-.2,2.1,2.1,0,0,0-.2-2.7Z" /> </g> </g> </g></svg>
               </button>
             </Show>
             <Bot
